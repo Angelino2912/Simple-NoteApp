@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="external/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="cont">
+        <h1 class="h1">Note App</h1>
+        
+        <input type="text" id="Nameuser" placeholder="Enter Your Name here">
+        <input type="text" id="noteList" placeholder="Enter your note here">
+
+        <button type="button" onclick="addnote()" id="addNoteButton">Add Note</button>
+       
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>nama</th>
+                    <th>note</th>
+                </tr>
+            <tbody id="notesList"></tbody>
+        </table>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
